@@ -1,0 +1,53 @@
+.bk-image-whole {
+    background-image: url('https://static.spotapps.co/website_images/ab_websites/222057_website_v1/custom_html_back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    height: 70vh; 
+    border-top: 8px solid rgb(185, 19, 19);
+    border-bottom: 8px solid rgb(185, 19, 19);
+}
+
+.bk-image-whole h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem; 
+}
+
+.bk-image-whole h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem; 
+}
+
+.bk-image-whole p {
+    font-size: 1rem; 
+    margin-bottom: 2rem;
+}
+
+.bk-image-whole .btn {
+    padding: 0.75rem 1.5rem; 
+    font-size: 1rem; 
+}
+
+@media (max-width: 768px) {
+    .bk-image-whole {
+        background-image: url('https://static.spotapps.co/website_images/ab_websites/222057_website_v1/custom_html_back.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+        height: 140vh; 
+        border-top: 8px solid rgb(185, 19, 19);
+        border-bottom: 8px solid rgb(185, 19, 19);
+       
+    }
+}

@@ -1,0 +1,98 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.con-det {
+    flex: 1 1 50%;
+    max-width: 500px;
+}
+
+.con-det h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.con-det h5 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #e93535;
+    text-align: center;
+}
+
+.con-det p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+    text-align: center;
+}
+
+.con-but{
+    display: block;
+  margin: 0 auto;
+  
+}
+
+.con-but:hover{
+    background-color: #d32f2f;
+}
+
+
+.con-cake {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.con-cake img {
+    max-width: 70%;
+    /* height: auto; */
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .con-det,
+    .con-cake {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .con-det h1 {
+        font-size: 2rem;
+    }
+
+    .con-det h5 {
+        font-size: 1.25rem;
+    }
+
+    .con-det p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .con-det h1 {
+        font-size: 1.75rem;
+    }
+
+    .con-det h5 {
+        font-size: 1rem;
+    }
+
+    .con-det p {
+        font-size: 0.75rem;
+    }
+}
+
