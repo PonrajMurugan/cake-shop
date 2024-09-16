@@ -52,8 +52,8 @@ const NavBar = () => {
                         <div className="navbar-nav">
                             <Link className="nav-link b-r" to="/">HOME</Link>
                             <Link className="nav-link b-r" to="/products">MENU</Link>
-                            <Link className="nav-link b-r" to="/cart">ORDER</Link>
-                            <Link className="nav-link b-r" to="#">DRINKS</Link>
+                            <Link className="nav-link b-r" to="/cupcake">CUP-CAKE</Link>
+                            <Link className="nav-link b-r" to="/cart">ORDER</Link>                          
                             
                             <Link className="nav-link b-r" to="#">SPECIALS</Link>  
                             <Link className="nav-link b-r" to="#">EVENTS</Link>

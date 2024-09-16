@@ -13,6 +13,7 @@ import Welcome from './components/welcome';
 import WelcomeTwo from './components/welcome2';
 import ProductDetails from './components/productDetails';
 import Cart from './components/cart';
+import Cupcake from './components/cupcake';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<div><Banner /><Welcome /><WelcomeTwo /><Menu /><Carousel /><Portfolio /><Events /><About /></div>} />
           <Route path="/products" element={<Product />} />
           <Route path="/product-details/:id" element={<ProductDetails />} />
+          <Route path="/cupcake" element={<Cupcake />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </div>
